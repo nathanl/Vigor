@@ -2,21 +2,20 @@
 $:.push File.expand_path("../lib", __FILE__)
 require "vigor/version"
 
-Gem::Specification.new do |s|
-  s.name        = "vigor"
-  s.version     = Vigor::VERSION
-  s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+Gem::Specification.new do |gem|
+  gem.name        = "vigor"
+  gem.version     = Vigor::VERSION
+  gem.platform    = Gem::Platform::RUBY
+  gem.authors     = ["Nathan Long"]
+  gem.homepage    = ""
+  gem.summary     = %q{Ruby tool to configure Vim}
+  gem.description = %q{Ruby tool to output Vim a subset of possible Vim configuration directives using human-readable input}
 
-  s.rubyforge_project = "vigor"
-  s.add_development_dependency 'rspec', '~>2.5.0'
+  gem.rubyforge_project = "vigor"
+  gem.add_development_dependency 'rspec', '~>2.5.0'
 
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
-  s.require_paths = ["lib"]
+  gem.files         = `git ls-files`.split("\n")
+  gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  gem.require_paths = ["lib"]
 end
