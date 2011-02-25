@@ -12,14 +12,14 @@ In its efforts to simplify Vim configuration, Vigor makes two decisions:
   will cover the most common ones.
 - The ones it can set, it will make as human-readable as possible
 
-Because Vigor won't do **everything** that a .vimrc can do, it's not meant to
-replace your .vimrc, but rather to augment it. Vigor will output valid Vim
-commands directives to a file, and you can `:source` that file from your
-.vimrc. If there's a Vim setting that you want which Vigor doesn't support,
-you can set it directly in your .vimrc. 
+Because Vigor won't do **everything** that a `.vimrc` can do, it's not meant to
+replace your `.vimrc` but rather to augment it. Vigor will output valid Vim
+commands to a file, and you can `:source` that file from your `.vimrc`.
+If there's a Vim setting that you want which Vigor doesn't support, you can 
+set it directly in your `.vimrc` 
 
-Hopefully, as Vigor becomes more robust, your .vimrc file will get shorter and
-will pull
+Hopefully, as Vigor becomes more robust, your `.vimrc` file will get shorter and
+will pull most of its settings from Vigor's output file.
 
 **Vim and Vigor - A Powerful Combination**
 
