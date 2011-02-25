@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.version     = Vigor::VERSION
   gem.platform    = Gem::Platform::RUBY
   gem.authors     = ["Nathan Long"]
-  gem.homepage    = ""
+  gem.homepage    = "github.com/sleeplessgeek/Vigor"
   gem.summary     = %q{Ruby tool to configure Vim}
   gem.description = %q{Ruby tool to output Vim a subset of possible Vim configuration directives using human-readable input}
 
