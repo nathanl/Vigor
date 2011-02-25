@@ -18,7 +18,7 @@ commands to a file, and you can `:source` that file from your `.vimrc`.
 If there's a Vim setting that you want which Vigor doesn't support, you can 
 set it directly in your `.vimrc` 
 
-Hopefully, as Vigor becomes more robust, your `.vimrc` file will get shorter and
+Hopefully, as Vigor becomes more vigorous, your `.vimrc` file will get shorter and
 will pull most of its settings from Vigor's output file.
 
 **Vim and Vigor - A Powerful Combination**
