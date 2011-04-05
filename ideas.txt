@@ -1,0 +1,2 @@
+filetype :textile, :textwidth => 500 could convert to "au BufReadPost *.textile
+set textwidth=500"
